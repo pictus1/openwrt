@@ -26,7 +26,7 @@
 		ethernet1 = &dp3;
 		ethernet2 = &dp4;
 		ethernet3 = &dp5;
-		ethernet4 = &dp6;
+		ethernet6 = &dp6;
 		label-mac-device = &dp2;
 	};
 
