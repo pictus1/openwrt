@@ -79,8 +79,6 @@ define Device/netgear_sxk80
 	BLOCKSIZE := 128k
 	PAGESIZE := 2048
 	SOC := ipq8074
-	IMAGE/sysupgrade.bin/squashfs := append-rootfs | pad-to 64k | \
-	sysupgrade-tar rootfs=$$$$@ | append-metadata
 endef
 
 define Device/netgear_sxr80
